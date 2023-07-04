@@ -1,9 +1,249 @@
-<title>
-    Zexin Yan (颜泽鑫)
-</title>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zexin Yan</title>
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+          integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
 <body>
-<h1>
-    Hello!
-</h1>
+<header class="sticky-top px-2 bg-dark">
+    <div class="container">
+        <div class="sticky-top d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="#" class="nav-link px-2 text-white">Zexin Yan</a>
+            <div class="text-end">
+
+                <ul class="nav col-12 col-lg-auto me-lg-3 mb-2 justify-content-center mb-md-0">
+                    <li><a href="#" class="nav-link px-2 text-secondary">Home</a></li>
+                    <li><a href="#Projects" class="nav-link px-2 text-secondary">Projects</a></li>
+                    <li><a href="#Publications" class="nav-link px-2 text-secondary">Publications</a></li>
+                    <li><a href="#Experiences" class="nav-link px-2 text-secondary">Experiences</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="container" style="padding-top: 20px; font-size: 17px">
+    <div class="row">
+        <div class="col-md-3" ,="" style="padding-right: 40px">
+            <br>
+            <img class="img-responsive img-rounded" src="assets/images/profile.png" alt="Photo"
+                 style="max-width: 100%; border:1px solid black"><br>
+        </div>
+
+        <div class="col-md-9">
+            <br>
+            <p>
+                I am currently pursuing a Master's degree in Software Management at <a href="https://www.cmu.edu" target="_blank">Carnegie Mellon University</a>. I received my bachelor's degree
+                from <a href="https://www.sysu.edu.cn/sysuen/" target="_blank">Sun Yat-sen University</a>.
+            </p>
+
+            <p>
+                I am skilled in software engineering and system design in CPP and Python. In particular, I used to design
+                and implement a low-code AI platform with a unified algorithm toolbox for in-house engineers,
+                leading to a great saving of engineering time. Currently, I am interested in distributed system in deep
+                learning to enable larger foundation model to be trained and deployed efficiently.
+            </p>
+            <p>
+                <a target="_blank" href="https://github.com/yunzhuli"><font color="black"><i
+                        class="fab fa-github fa-lg"></i></font></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
+                <a target="_blank" href="https://twitter.com/YunzhuLiYZ"><font color="black"><i
+                        class="fab fa-twitter fa-lg"></i></font></a>&nbsp;&nbsp;&nbsp;/&nbsp;&nbsp;
+                zexiny@andrew.cmu.edu
+            </p>
+        </div>
+    </div>
+    <hr>
+</div>
+
+<div class="container" id="Projects">
+    <h3 style="padding-top: 80px; margin-top: -80px;">Projects</h3>
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-fluid img-rounded"
+                 src="assets/images/sqr-smore-core.png" style="border:1px" width="250" height="250"
+                 alt="">
+        </div>
+
+        <div class="col-md-9">
+            <b><font color="black"></font>The foundational library for deep learning models to train and deploy</b><br>
+            <ul>
+                <li>
+                    Designed a mechanism to train a deep learning model with a few lines of configurations.
+                </li>
+                <li>
+                    Designed a unified code structure to extend modules efficiently.
+                </li>
+                <li>
+                    Designed an industry oriented usage design to ensure every model
+                    is stabled and reproducible.
+                </li>
+                <li>
+                    High-quality implementation of data augmentation algorithm with CUDA to enable training faster.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-fluid img-rounded"
+                 src="assets/images/sqr-smore-seg.png" style="border:1px" width="250" height="250"
+                 alt="">
+        </div>
+        <div class="col-md-9">
+            <b><font color="black"></font>Semantic segmentation toolkit</b><br>
+            <ul>
+                <li>
+                    Generality and superiority of the platform were shown by achieving SOTA on accuracy and computational efficiency for various benchmark.
+                </li>
+                <li>
+                    Designed a novel semantic segmentation network structure that can accurately identify tiny defects,
+                    a critical bottleneck for achieving 99.99% yield index.
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-fluid img-rounded"
+                 src="assets/images/sqr-smore-uad.png" style="border:1px" width="250" height="250"
+                 alt="">
+        </div>
+        <div class="col-md-9">
+            <b><font color="black"></font>Unsupervised anomaly detection toolkit</b><br>
+            <ul>
+                <li>
+                    Reproduced SOTA algorithms in unsupervised anomaly detection.
+                </li>
+                <li>
+                    High-quality implement of algorithm to enable training in larger image with less memory
+                    and training a model in less than 2 minutes.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+
+    <div class="row">
+        <div class="col-md-3">
+            <img class="img-fluid img-rounded"
+                 src="assets/images/sqr-smore-hpo.png" style="border:1px" width="250" height="250"
+                 alt="">
+        </div>
+        <div class="col-md-9">
+            <b><font color="black"></font>Automatic AI model tuning framework</b><br>
+            <ul>
+                <li>
+                    Designed an efficient AutoML framework to support any tasks with many parameters to tune
+                    and enable extending black-box optimization algorithm efficiently.
+                </li>
+                <li>
+                    Designed and implemented hyper-parameters optimization technology and achieved the same or better
+                    performance without the involvement of AI engineers in more than 20 in-house real-world datasets.
+                </li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+</div>
+
+<div class="container" id="Publications">
+    <h3 style="padding-top: 80px; margin-top: -80px;">Publications and Patents</h3>
+    <ul>
+
+        <li>
+            Zexin Yan, Lian Ding et al. Automated Prediction of Stroke Lesion Outcome using Multiparametric Deep Neural
+            Network, 2019, The International Society for Magnetic Resonance in Medicine (ISMRM)
+        </li>
+        <li>
+            Shuai Yang, Zexin Yan et al. The approach for model determination encompasses techniques, apparatus,
+            computer
+            machinery, and computer-readable storage media. CN 115601550B, issued April 7, 2023
+        </li>
+        <li>
+            Ziyu Zhang, Zexin Yan et al. Device and method for washing label data. CN1 11177136B, issued April 18, 2023.
+        </li>
+        <li>
+            Xi Fang, Zexin Yan, Shu Liu, Xiaoyong Shen, Jiangbo Lu. Model training methods, devices, computer equipment
+            and
+            storage medium. CN 114663662A, issued June 24, 2022.
+        </li>
+        <li>
+            Zexin Yan, Shu Liu et al. Pattern recognition method, device, computer equipment and computer readable
+            storage
+            medium. CN 115761322A, under review.
+        </li>
+        <li>
+            Zexin Yan, Shu Liu et al. Model construction method and device, computer equipment and computer readable
+            storage
+            medium. CN 115660029A, under review.
+        </li>
+        <li>
+            Pengguang Chen, Zexin Yan et al. Film defect detection method and device, computer equipment and storage
+            medium.
+            CN 115760723A, under review.
+        </li>
+    </ul>
+    <hr>
+</div>
+
+<div class="container" id="Experiences">
+    <h3 style="padding-top: 80px; margin-top: -80px;">Education</h3>
+    <ul>
+        <li>
+            2023.8 - 2025.1, Carnegie Mellon University<br>
+            Master of Science in Software Management
+        </li>
+        <li>
+            2015.9 - 2019.7, Sun Yat-sen University<br>
+            Bachelor of Science in Computer Engineering
+        </li>
+    </ul>
+    <hr>
+</div>
+
+<div class="container">
+    <h3 style="padding-top: 80px; margin-top: -80px;">Experience</h3>
+    <ul>
+        <li>
+            2020.06 - 2023.8, Tech Lead, <a href="https://cn.smartmore.com" target="_blank">SmartMore</a>
+        </li>
+        <li>
+            2018.08 - 2020.6, R&D Engineer, <a href="https://www.yitutech.com/en" target="_blank">YITU Tech</a>
+        </li>
+        <li>
+            2018.11 - 2019.6, Research Assistant, Human Cyber Physical Intelligence Integration Lab of Sun Yat-sen
+            University<br>
+            Advisors: Prof. <a href="https://scholar.google.com/citations?user=voxznZAAAAAJ&hl=zh-CN" target="_blank">Xiaodan
+            Liang</a>
+        </li>
+        <li>
+            2017.10 - 2018.6, Research Assistant, Southern China Center for Statistical Science, Sun Yat-sen
+            University<br>
+            Advisors: Prof. <a href="https://scholar.google.com/citations?user=aWCzbYwAAAAJ&hl=zh-CN" target="_blank">Xueqin
+            Wang</a>
+        </li>
+        <li>
+            2017.5 - 2017.9, Research Assistant, Department of Decision Sciences and Managerial Economics at CUHK
+            <br>Advisors: Prof. <a href="https://www.bschool.cuhk.edu.hk/staff/wu-jing/" target="_blank">Jing Wu</a>
+        </li>
+    </ul>
+
+</div>
+
+<div class="container">
+    <hr>
+    <center>
+        <footer>
+            <p>© Zexin Yan 2023</p>
+        </footer>
+    </center>
+</div>
+
 </body>
+</html>
